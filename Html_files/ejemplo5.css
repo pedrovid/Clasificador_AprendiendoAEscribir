@@ -1,0 +1,440 @@
+body {
+  background-color: rgb(245, 246, 247);
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: 'Roboto', sans-serif;
+}
+#texto{
+  font: bold 50px Tahoma;
+  width: 100%;
+}
+#calif{
+  font: bold 60px Tahoma;
+  width: 100% ;
+}
+
+#caja{
+  background-color: rgb(148, 156, 156);
+  width: 500px;
+  height: 250px;
+}
+
+.ball1 {
+
+  position: absolute;
+  right: 1700px;
+  bottom: 700px;
+  width: 140px;
+  height: 140px;
+  
+  background-color: rgb(136, 240, 38);
+  border-radius: 50%;
+  
+  offset-path: path('M100 100 Q 20 10, 145 80 T 280 80 ');
+  offset-distance: %;
+
+  animation: red-ball 2s linear alternate infinite;
+}
+.ball2 {
+  position: absolute;
+  right: 1100px;
+  bottom: 400px;
+  width: 190px;
+  height: 190px;
+  background-color: rgb(8, 170, 16);
+  border-radius: 50%;
+  
+  offset-path: path('M20 60 Q 50 300, 200 300 T 900 80');
+  offset-distance: 0%;
+
+  animation: red-ball 5s linear alternate infinite;
+}
+
+.ball3 {
+  position: absolute;
+  right: 1550px;
+  bottom: 450px;
+  width: 170px;
+  height: 170px;
+  
+  background-color: rgb(9, 90, 13);
+  border-radius: 50%;
+  
+  offset-path: path('M 900 650 Q 50 300, 200 300 T 900 100');
+  offset-distance: 0%;
+
+  animation: red-ball 4.3s linear alternate infinite;
+}
+.ball4 {
+  position: absolute;
+  right: 1800px;
+  bottom: 700px;
+  width: 90px;
+  height: 90px;
+  background-color: rgb(255, 0, 0);
+  border-radius: 50%;
+  
+  offset-path: path('M1200 100 V500');
+  offset-distance: 0%;
+
+  animation: red-ball 4.7s linear alternate infinite;
+}
+.ball5 {
+  position: absolute;
+  right: 400px;
+  bottom: 500px;
+  width: 80px;
+  height: 80px;
+  background-color: rgb(223, 91, 82);
+  border-radius: 50%;
+  
+  offset-path: path('M0 200 Q 50 30, 200 300 T 70 90');
+  offset-distance: 0%;
+
+  animation: red-ball 3s linear alternate infinite;
+}
+.ball6 {
+  position: absolute;
+  right: 1700px;
+  bottom: 400px;
+  width: 70px;
+  height: 70px;
+  background-color: rgb(35, 233, 173);
+  border-radius: 50%;
+  
+  offset-path: path('M 300 0 Q 500 0, 500 300 T 200 180');
+  offset-distance: 0%;
+
+  animation: red-ball 7s linear alternate infinite;
+}
+.ball7 {
+  position: absolute;
+  right: 1650px;
+  bottom: 400px;
+  width: 130px;
+  height: 130px;
+  background-color: rgb(2, 84, 90);
+  border-radius: 50%;
+  
+  offset-path: path('M 0 0 Q 50 300, 200 300 T 900 80');
+  offset-distance: 0%;
+
+  animation: red-ball 5s linear alternate infinite;
+}
+.ball8 {
+
+  position: absolute;
+  right: 1200px;
+  bottom: 450px;
+  width: 90px;
+  height: 90px;
+  
+  background-color: rgb(8, 31, 136);
+  border-radius: 50%;
+  
+  offset-path: path('M100 200 Q 20 10, 130 80 T 280 380 ');
+  offset-distance: %;
+
+  animation: red-ball 2s linear alternate infinite;
+}
+.ball9 {
+  position: absolute;
+  right: 900px;
+  bottom: 400px;
+  width: 120px;
+  height: 120px;
+  background-color: rgb(95, 112, 224);
+  border-radius: 50%;
+  
+  offset-path: path('M500 60 Q 50 300, 200 300 T 900 80');
+  offset-distance: 0%;
+
+  animation: red-ball 3.5s linear alternate infinite;
+}
+
+.ball10 {
+  position: absolute;
+  right: 1400px;
+  bottom: 700px;
+  width: 100px;
+  height: 100px;
+  
+  background-color: rgb(86, 3, 119);
+  border-radius: 50%;
+  
+  offset-path: path('M 750 650 Q 20 300, 200 300 T 900 80');
+  offset-distance: 0%;
+
+  animation: red-ball 7s linear alternate infinite;
+}
+.ball11 {
+  position: absolute;
+  right: 200px;
+  bottom: 600px;
+  width: 90px;
+  height: 90px;
+  background-color: rgb(102, 27, 117);
+  border-radius: 50%;
+  
+  offset-path: path('M10 200 V400');
+  offset-distance: 0%;
+
+  animation: red-ball 3s linear alternate infinite;
+}
+.ball12 {
+  position: absolute;
+  right: 1000px;
+  bottom: 700px;
+  width: 120px;
+  height: 120px;
+  background-color: rgb(97, 9, 68);
+  border-radius: 50%;
+  
+  offset-path: path('M180 400 Q 500 40, 250 300 T 50 90');
+  offset-distance: 0%;
+
+  animation: red-ball 3s linear alternate infinite;
+}
+.ball13 {
+  position: absolute;
+  right: 1200px;
+  bottom: 450px;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(204, 13, 179);
+  border-radius: 50%;
+  
+  offset-path: path('M 700 64 Q 400 590, 700 400 T 200 80');
+  offset-distance: 0%;
+
+  animation: red-ball 7s linear alternate infinite;
+}
+.ball14 {
+  position: absolute;
+  right: 1300px;
+  bottom: 800px;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(218, 142, 152);
+  border-radius: 50%;
+  
+  offset-path: path('M 364 832 Q 35 150, 220 370 T 900 80');
+  offset-distance: 0%;
+
+  animation: red-ball 3.8s linear alternate infinite;
+}
+
+.ball15 {
+
+  position: absolute;
+  right: 1800px;
+  bottom: 200px;
+  width: 90px;
+  height: 90px;
+  
+  background-color: rgb(74, 80, 79);
+  border-radius: 50%;
+  
+  offset-path: path('M50 200 Q 50 10, 145 100 T 280 180 ');
+  offset-distance: %;
+
+  animation: red-ball 4s linear alternate infinite;
+}
+.ball16 {
+  position: absolute;
+  right: 1700px;
+  bottom: 400px;
+  width: 130px;
+  height: 130px;
+  background-color: rgb(138, 216, 158);
+  border-radius: 50%;
+  
+  offset-path: path('M0 60 Q 500 300, 250 300 T 1100 350');
+  offset-distance: 0%;
+
+  animation: red-ball 4s linear alternate infinite;
+}
+
+.ball17 {
+  position: absolute;
+  right: 300px;
+  bottom: 800px;
+  width: 40px;
+  height: 40px;
+  
+  background-color: rgb(63, 33, 21);
+  border-radius: 50%;
+  
+  offset-path: path('M 900 650 Q 50 300, 200 300 T 200 80');
+  offset-distance: 0%;
+
+  animation: red-ball 7s linear alternate infinite;
+}
+.ball18 {
+  position: absolute;
+  right: 1800px;
+  bottom: 800px;
+  width: 90px;
+  height: 90px;
+  background-color: rgb(218, 106, 15);
+  border-radius: 50%;
+  
+  offset-path: path('M10 100 V500');
+  offset-distance: 0%;
+
+  animation: red-ball 2s linear alternate infinite;
+}
+.ball19 {
+  position: absolute;
+  right: 1600px;
+  bottom: 700px;
+  width: 80px;
+  height: 80px;
+  background-color: rgb(241, 196, 50);
+  border-radius: 50%;
+  
+  offset-path: path('M50 0 Q 50 300, 200 300 T 50 90');
+  offset-distance: 0%;
+
+  animation: red-ball 4s linear alternate infinite;
+}
+.ball20 {
+  position: absolute;
+  right: 1700px;
+  bottom: 400px;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50%;
+  
+  offset-path: path('M 000 0 Q 500 250, 800 300 T 200 80');
+  offset-distance: 0%;
+
+  animation: red-ball 7s linear alternate infinite;
+}
+.ball21 {
+  position: absolute;
+  right: 1200px;
+  bottom: 800px;
+  width: 30px;
+  height: 30px;
+  background-color: rgb(125, 127, 197);
+  border-radius: 50%;
+  
+  offset-path: path('M 0 0 Q 50 300, 200 300 T 900 80');
+  offset-distance: 0%;
+
+  animation: red-ball 2s linear alternate infinite;
+}
+.ball22 {
+
+  position: absolute;
+  right: 200px;
+  bottom: 800px;
+  width: 90px;
+  height: 90px;
+  
+  background-color: rgba(46, 68, 63, 0.829);
+  border-radius: 50%;
+  
+  offset-path: path('M0 0 Q 20 10, 130 80 T -280 380 ');
+  offset-distance: %;
+
+  animation: red-ball 2s linear alternate infinite;
+}
+.ball23 {
+  position: absolute;
+  right: 500px;
+  bottom: 400px;
+  width: 30px;
+  height: 30px;
+  background-color: rgb(94, 28, 28);
+  border-radius: 50%;
+  
+  offset-path: path('M0 60 Q 150 300, 250 300 T 700 40');
+  offset-distance: 0%;
+
+  animation: red-ball 3s linear alternate infinite;
+}
+
+.ball24 {
+  position: absolute;
+  right: 200px;
+  bottom: 200px;
+  width: 80px;
+  height: 80px;
+  
+  background-color: rgb(66, 160, 66);
+  border-radius: 50%;
+  
+  offset-path: path('M 0 0 Q 20 300, 200 300 T -900 -80');
+  offset-distance: 0%;
+
+  animation: red-ball 7s linear alternate infinite;
+}
+.ball25 {
+  position: absolute;
+  right: 1800px;
+  bottom: 1000px;
+  width: 90px;
+  height: 90px;
+  background-color: rgb(192, 109, 54);
+  border-radius: 50%;
+  
+  offset-path: path('M200 100 V600');
+  offset-distance: 0%;
+
+  animation: red-ball 1s linear alternate infinite;
+}
+.ball26 {
+  position: absolute;
+  right: 1650px;
+  bottom: 700px;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(151, 0, 0);
+  border-radius: 50%;
+  
+  offset-path: path('M0 0 Q 500 140, 450 300 T 600 90');
+  offset-distance: 0%;
+
+  animation: red-ball 2.2s linear alternate infinite;
+}
+.ball27 {
+  position: absolute;
+  right: 1200px;
+  bottom: 450px;
+  width: 80px;
+  height: 80px;
+  background-color: rgb(196, 209, 119);
+  border-radius: 50%;
+  
+  offset-path: path('M 0 64 Q 400 590, 700 400 T -200 -180');
+  offset-distance: 0%;
+
+  animation: red-ball 7s linear alternate infinite;
+}
+.ball28 {
+  position: absolute;
+  right: 1300px;
+  bottom: 800px;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(74, 107, 101);
+  border-radius: 50%;
+  
+  offset-path: path('M 0 0 Q 35 150, 220 370 T -400 280');
+  offset-distance: 0%;
+
+  animation: red-ball 3s linear alternate infinite;
+}
+
+@keyframes red-ball {
+  from {
+    offset-distance: 0%;
+  }
+  to {
+    offset-distance: 100%;
+  }
+}
